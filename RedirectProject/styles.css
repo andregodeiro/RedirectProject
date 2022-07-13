@@ -4,6 +4,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   background-color: rgb(251, 240, 224);
+  box-sizing: border-box;
 }
 
 .header {

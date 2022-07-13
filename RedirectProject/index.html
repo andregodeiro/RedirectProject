@@ -12,19 +12,21 @@
 <body>
 
   <header>
-    <img src="./images/logo.png" width="150px" alt="Logo André Godeiro (AG)">
-    <h1>André Godeiro</h1>
-    <h3>Advocacia e Consultoria</h3>
+    <div class="header">
+      <img src="./images/logo.png" width="150px" alt="Logo André Godeiro (AG)">
+      <h1>André Godeiro</h1>
+      <h3>Advocacia e Consultoria</h3>
+    </div>
   </header>
 
-  <p>Insira o número para o qual quer ser redirecionado e os dados do cliente.</p>
+  <p class="instrucoes">Preencha os campos abaixo com os dados solicitados</p>
 
   <main>
-    <div class="formulário">
-      <form action="" id="form">
-        <input id="inputNumero" type="number" placeholder="Insira o Número: ">
-        <input id="inputCliente" type="text" placeholder="Nome do cliente: ">
-        <input id="inputEspecialidade" type="text" placeholder="Especialidade: ">
+    <div>
+      <form class="formulario" action="" id="form">
+        <input id="inputNumero" type="number" placeholder="Número do cliente ">
+        <input id="inputCliente" type="text" placeholder="Nome do cliente ">
+        <input id="inputEspecialidade" type="text" placeholder="Especialidade ">
         <button id="botao" type="submit">Redirecionar</button>
       </form>
     </div>
